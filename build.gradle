@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile "org.apache.nifi:nifi-api:1.6.0"
+	compile "com.google.code.gson:gson:2.8.2" 
+}
